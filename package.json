@@ -1,24 +1,20 @@
 {
-  "publisher": "antfu",
+  "publisher": "ririd",
   "name": "ext-name",
   "displayName": "ext-name",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@8.6.0",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Riri <daydreamerriri@outlook.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/ext-name#readme",
+  "homepage": "https://github.com/Daydreamer-riri/ext-name#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/ext-name"
+    "url": "https://github.com/Daydreamer-riri/ext-name"
   },
   "bugs": {
-    "url": "https://github.com/antfu/ext-name/issues"
-  },
-  "sponsor": {
-    "url": "https://github.com/sponsors/antfu"
+    "url": "https://github.com/Daydreamer-riri/ext-name/issues"
   },
   "categories": [
     "Other"
@@ -46,15 +42,14 @@
     "release": "bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.4",
-    "@antfu/ni": "^0.21.2",
+    "@ririd/eslint-config": "^0.5.1",
     "@types/node": "^18.15.11",
     "@types/vscode": "^1.77.0",
     "bumpp": "^9.1.0",
     "eslint": "^8.37.0",
     "esno": "^0.16.3",
     "pnpm": "^8.1.1",
-    "rimraf": "^4.4.1",
+    "rimraf": "^5.0.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.3",
     "vite": "^4.2.1",
